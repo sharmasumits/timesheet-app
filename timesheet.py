@@ -5,15 +5,19 @@ from datetime import date
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import os
 
 # ---------- FILE PATHS ----------
 USERS_FILE = "users.json"
 PROJECTS_FILE = "projects.json"
 TIMESHEETS_FILE = "timesheets.json"
 
-# ---------- EMAIL SETTINGS ----------
-EMAIL_SENDER = "sharmasumits12k@gmail.com"
-EMAIL_PASSWORD = "vcec ovka kwpz xcvk"  # Gmail App Password
+# # ---------- EMAIL SETTINGS ----------
+# EMAIL_SENDER = "sharmasumits12k@gmail.com"
+# EMAIL_PASSWORD = "vcec ovka kwpz xcvk"  # Gmail App Password
+EMAIL_SENDER = os.getenv("EMAIL_SENDER")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 

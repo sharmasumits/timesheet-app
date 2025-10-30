@@ -44,5 +44,13 @@
             "testing",
             "vcms"
         ]
+    },
+    {
+        "username": "Umesh",
+        "password": "Umesh@123",
+        "email": "azureportal933@gmail.com",
+        "projects": [
+            "power bi"
+        ]
     }
 ]
