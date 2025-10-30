@@ -1,0 +1,48 @@
+[
+    {
+        "username": "admin",
+        "password": "admin123",
+        "projects": []
+    },
+    {
+        "username": "shruti.arora",
+        "password": "123456",
+        "projects": [
+            "VCMS PROJECT "
+        ]
+    },
+    {
+        "username": "sumit",
+        "password": "12345678",
+        "projects": [
+            "ENDURE PROJECT "
+        ]
+    },
+    {
+        "username": "sumit",
+        "password": "12345678",
+        "projects": [
+            "ENDURE PROJECT ",
+            "VCMS PROJECT "
+        ]
+    },
+    {
+        "username": "sumit",
+        "password": "Sumit123",
+        "projects": [
+            "testing",
+            "power bi",
+            "allegro horizon ",
+            "vcms"
+        ]
+    },
+    {
+        "username": "Goresh",
+        "password": "Goresh@123",
+        "email": "sumitsharma18743@gmail.com",
+        "projects": [
+            "testing",
+            "vcms"
+        ]
+    }
+]
