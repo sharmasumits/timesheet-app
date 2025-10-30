@@ -7,6 +7,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
 
+
 # ---------- FILE PATHS ----------
 USERS_FILE = "users.json"
 PROJECTS_FILE = "projects.json"
@@ -107,7 +108,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🕒 Timesheet Management App")
+st.title("🕒 Timesheet Management Application")
 
 # ---------- SESSION STATE ----------
 if 'logged_in' not in st.session_state:
